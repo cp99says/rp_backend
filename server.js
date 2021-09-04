@@ -4,8 +4,7 @@ app.use(express.json());
 const cors = require("cors");
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://arpit:iluvmuma@arpit-xcm5n.gcp.mongodb.net/Rich_Panel?retryWrites=true&w=majority",
-  {
+  ""
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
